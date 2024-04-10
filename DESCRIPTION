@@ -1,0 +1,18 @@
+Package: GFLglm
+Type: Package
+Title: Generalized fused Lasso for grouped data in generalized linear models
+Version: 0.1.0
+Author: Mineaki Ohishi
+Maintainer: Mineaki Ohishi <mineaki.ohishi.a4@tohoku.ac.jp>
+Description: This package gives generalized fused Lasso estimator for 
+    generalized linear models via coordinate descent algorithm.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    magrittr,
+    purrr
+Depends: 
+    R (>= 2.10)
