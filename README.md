@@ -37,13 +37,13 @@ This package has the dataset `crimetko` used in Ohishi (2024) like this
 
 ``` r
 head(crimetko)
-#>   year crime pop group
-#> 1 2017   714   8     1
-#> 2 2017    76   5     1
-#> 3 2017    44   4     1
-#> 4 2017   275  22     1
-#> 5 2017    61   4     1
-#> 6 2017    47 526     1
+#>   year area crime pop group
+#> 1 2017    1   714   8     1
+#> 2 2017    1    76   5     1
+#> 3 2017    1    44   4     1
+#> 4 2017    1   275  22     1
+#> 5 2017    1    61   4     1
+#> 6 2017    1    47 526     1
 ```
 
 The `crime` is the number of crimes of which the original data was
@@ -97,4 +97,4 @@ there is a option using log-link by setting `link = "log"`.
 1.  Ohishi, M. (2024). Generalized fused Lasso for grouped data in
     generalized linear models. *Hiroshima Statistical Research Group
     Technical Report*, TR-No. 24-02, Hiroshima University.
-    \[[PDF](http://www.math.sci.hiroshima-u.ac.jp/stat/TR/TR21/TR24-02.pdf)\]
+    \[[PDF](http://www.math.sci.hiroshima-u.ac.jp/stat/TR/TR24/TR24-02.pdf)\]
