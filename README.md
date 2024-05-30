@@ -95,6 +95,5 @@ there is a option using log-link by setting `link = "log"`.
 ## Reference
 
 1.  Ohishi, M. (2024). Generalized fused Lasso for grouped data in
-    generalized linear models. *Hiroshima Statistical Research Group
-    Technical Report*, TR-No. 24-02, Hiroshima University.
-    \[[PDF](http://www.math.sci.hiroshima-u.ac.jp/stat/TR/TR24/TR24-02.pdf)\]
+    generalized linear models. *Stat. Comput.*, <b>34</b>, 124. doi:
+    [10.1007/s11222-024-10433-5](https://doi.org/10.1007/s11222-024-10433-5)
